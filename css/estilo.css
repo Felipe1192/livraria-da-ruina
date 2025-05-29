@@ -1,0 +1,59 @@
+
+
+/*****Resetar Formatações do Navegador*****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+}
+
+/***HEADER***/
+#topo {
+    background-color: bisque;
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 20px;
+}
+#topo h1 {
+    text-align: center;
+    color: red;
+    background-color: bisque;
+}
+#topo h2 {
+    text-align: center;
+}
+/***MENU***/
+#menu {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    width: 100px;
+    background-color: coral;
+    border-radius: 3px;
+}
+#menu ul {
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 15px; 
+}
+/***MAIN***/
+.destaque h2 {
+    color: blue;
+}
+/***SOBRE***/
+.sobre h3 {
+    color: red;
+}
+
